@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+
+body{
+  font-family: 'Vollkorn', serif;
+}
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -39,4 +46,14 @@
 .navbar toggler {
   border: none;
   
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 48px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow:  -1px 9px 48px -12px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 48px -12px;
+
+
+
+
 }

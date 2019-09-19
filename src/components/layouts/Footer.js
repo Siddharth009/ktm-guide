@@ -1,76 +1,84 @@
 import React from 'react';
 import styled from 'styled-components';
+import Google from './layoutimages/google.png';
+import App from './layoutimages/app.png';
+
+
+
 
 function Footer() {
   return (
-    <FooterContainer className="main-footer special-color-dark bg-dark " >
+    <FooterContainer className="main-footer special-color-dark text-white bg-dark" style={{zIndex :'22'}} >
       <div className="footer-middle">
         <div className="container">
           <div className="row">
             {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
-              <ul className="list-unstyled">
+            <div className="col-md-4 col-sm-6">
+              <h4>Add Your Property in the List</h4>
+              <h6>Looking for your place in the list? <br/> Contact us and we can talk.</h6> <br/>
+              <form className="form-inline my-2 my-lg-0">
+      <input className="form-control mr-sm-2" type="search" placeholder="Your email here" aria-label="You Email"/>
+      <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Contact</button>
+    </form>
+              {/* <ul className="list-unstyled">
+                <li>Home </li>
+                <li>News</li>
                 <li>Lorem ipsum</li>
                 <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-              </ul>
+              </ul> */}
             </div>
             {/* Column 2 */}
-            <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+            <div className="col-md-4 col-sm-6">
+              <h4>Ktm City Guide</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">News</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Contact Us</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">More</a>
                 </li>
               </ul>
             </div>
             {/* Column 3 */}
+            <div class="col-md-4 col-sm-6 ">
+              <h4>Get the App</h4>
+        <div>
+          <a href="#"
+            ><img
+              src={Google}
+            alt={"app-store-badge"}
+              style= {{width:"120px"}}
+          /></a>
+        </div>
+        <br></br>
+        <div>
+          <a href="#"
+            ><img
+              src={App}
+              alt="play-store-badge"
+              style= {{width:"120px"}}
+          /></a>
+        </div>
+      </div>
+            {/* Column 4
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h4>Find us at:</h4>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">Play Store</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum</a>
+                  <a href="#">App Store</a>
                 </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
+               
               </ul>
-            </div>
-            {/* Column 4 */}
-            <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
+            </div> */}
           </div>
           {/* Footer Bottom */}
           <div className="footer-bottom">
