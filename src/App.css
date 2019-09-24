@@ -6,11 +6,13 @@ p{
 body{
   font-family: 'Vollkorn', serif;
   
+  
 }
 .App {
   text-align: center;
   justify-content: center;
   align-items: center;
+  
 }
 
 .App-logo {
@@ -60,4 +62,9 @@ body{
 
 
 
+}
+@media screen and (max-width:991px){
+  .card{
+    margin:0 auto;
+  }
 }
