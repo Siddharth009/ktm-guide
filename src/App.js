@@ -13,7 +13,7 @@ import PageNotFound from './/components/pages/PageNotFound';
 
 function App() {
   return (
-    <div classNameNameNameNameName="App">
+    <div className="App">
       <Navbar/>
       <Switch>
         <Route exact path='/' component={Home} />

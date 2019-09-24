@@ -11,7 +11,7 @@ import {  Link } from 'react-router-dom';
   <Link className="navbar-brand ml-5" to="/"> <img src= {logo} style ={{height: '30px', width:'auto'}}></img></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span >
-      <i class="fa fa-bars" style ={{ color:'white'}}></i>
+      <i className="fa fa-bars" style ={{ color:'white'}}></i>
     </span>
   </button>
 
