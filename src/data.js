@@ -129,8 +129,9 @@ export const detailInfo = {
   'Seto Gumba (White Gumba) is a natural beauty along with religious importance. It is at Druk Amitabha Mountain. Surrounded by vivid terrain and lush green valley Seto Gumba gives us heavenly pleasure to watch sunrise and sunset. The whole view (Birds eye point of view) of Kathmandu valley can be observed from here in the most spectacular way. If you are in search of excitement as well as calmness this is the right place that you deserved.',
   img: '.././images/garaj.jpg',
   maps:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1123.3850145412064!2d37.600589158335865!3d55.72774864513666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b0be3ac9d11%3A0x735806d25b3bdc55!2z0JzRg9C30LXQuSDRgdC-0LLRgNC10LzQtdC90L3QvtCz0L4g0LjRgdC60YPRgdGB0YLQstCwIMKr0JPQsNGA0LDQtsK7!5e0!3m2!1sru!2sru!4v1547763408711'
-};
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.749026217103!2d85.26002105015372!3d27.725034231237867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb22729eaa919f%3A0x23884372a747304!2sWhite%20Monastery!5e0!3m2!1sen!2snp!4v1569560114434!5m2!1sen!2snp"
+
+}
 
 export const news = [
   {

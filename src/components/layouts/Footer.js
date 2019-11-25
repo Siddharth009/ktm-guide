@@ -17,8 +17,8 @@ function Footer() {
               <h4>Add Your Property in the List</h4>
               <h6>Looking for your place in the list? <br/> Contact us and we can talk.</h6> <br/>
               <form className="form-inline my-2 my-lg-0">
-      <input className="form-control mr-sm-2" type="search" placeholder="Your email here" aria-label="You Email"/>
-      <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Contact</button>
+      <input className="form-control mr-sm-2" type="search" placeholder="Your email here" aria-label="You Email"/> 
+     <button className="btn btn-outline-primary my-2 my-sm-0 mx-auto" type="submit" style={{cursor:'pointer'}}>Contact</button>
     </form>
               {/* <ul className="list-unstyled">
                 <li>Home </li>
@@ -96,6 +96,7 @@ export default Footer;
 
 const FooterContainer = styled.footer`
   .footer-middle {
+    overflow: hidden;
     background: var(--mainDark);
     padding-top: 3rem;
     color: var(--mainWhite);
